@@ -83,7 +83,7 @@ const Physics = () => {
                 <div className=' cursor-pointer w-full h-20 flex flex-start gap-4  items-center overflow-x-auto p-3 hide-scrollbar '>
                    <div className='min-w-[25%] md:min-w-[15%] h-10 border-2 rounded-2xl border-gray-200 flex justify-center items-center font-poppins dark:text-white '>
 <label for="Class" ></label>
-<select id="Class" name="Class" className='className="border-none focus:outline-none focus:ring-0 ' onChange={(e)=>{
+<select id="Class" name="Class" className=' appearance-none className="border-none focus:outline-none focus:ring-0 ' onChange={(e)=>{
 setsclass(e.target.value);
 filtersection()
 }}>
