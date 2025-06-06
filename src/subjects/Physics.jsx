@@ -90,7 +90,7 @@ filtersection()
   <option value="" disabled selected hidden>Class</option>
   <option value="Class 11" className='w-6 h-6 dark:text-black text-sm'>Class 11</option>
   <option value="Class 12" className='w-6 h-6 dark:text-black text-sm'>Class 12</option>
-  <option value="ALL" className='w-6 h-6 dark:text-black text-sm'>All</option>
+  <option value="All" className='w-6 h-6 dark:text-black text-sm'>All</option>
 </select>
 
                    </div>
