@@ -76,7 +76,7 @@ const Chemistry = () => {
 <select id="Class" name="Class" className='className="border-none focus:outline-none focus:ring-0 ' onChange={(e)=>{
 setsclass(e.target.value);
 filtersection()
-}}>
+}}> <option value="" disabled selected hidden>Class</option>
   <option value="Class 11" className='w-6 h-6 dark:text-black'>Class 11</option>
   <option value="Class 12" className='w-6 h-6 dark:text-black'>Class 12</option>
   <option value="Class 12" className='w-6 h-6 dark:text-black'>All</option>

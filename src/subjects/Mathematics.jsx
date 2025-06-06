@@ -79,9 +79,10 @@ const Mathematics = () => {
 <label for="Class" ></label>
 <select id="Class" name="Class" className='className="border-none focus:outline-none focus:ring-0 'onChange={(e)=>{
 setsclass(e.target.value);}} >
+   <option value="" disabled selected hidden>Class</option>
   <option value="Class 11" className='w-6 h-6 dark:text-black'>Class 11</option>
   <option value="Class 12" className='w-6 h-6 dark:text-black'>Class 12</option>
-   <option value="Class 12" className='w-6 h-6 dark:text-black'>All</option>
+   <option value="All" className='w-6 h-6 dark:text-black'>All</option>
 </select>
 </div>
 <div className='min-w-[25%] md:min-w-[15%]  h-10  border-2 rounded-2xl border-gray-200 flex justify-center items-center font-poppins dark:text-white'>
