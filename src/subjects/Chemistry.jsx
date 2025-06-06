@@ -112,14 +112,14 @@ filtersection()
                    </div>
 
                 </div>
-                <div className='w-full h-5 font-poppins flex justify-between items-center p-3 dark:text-white'>
+                <div className='w-full h-4 font-poppins flex justify-between items-center p-3 dark:text-white'>
                    Showing all chapters ({fdata.length})
                    <button className='flex'>
                     <img src={btn1} alt=""   />
                     <img src={btn2} alt=""  />
                    </button>
                 </div>
-                <div className='mt-10 flex flex-col gap-2'>
+                <div className='mt-6 flex flex-col gap-2'>
                 {fdata.map((ele)=>{
                   return <Chap name={ele.subject} chapter={ele.chapter} icons={ele.icons}  yearWiseQuestionCount={ele.yearWiseQuestionCount} questionSolved={ele.questionSolved}/>
                 })}
