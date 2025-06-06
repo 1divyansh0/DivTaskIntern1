@@ -17,13 +17,16 @@ const mobile = ({setactivesection}) => {
         <div className='w-full h-6'>
           
         </div>
-        <div className='w-full h-16 flex'>
+        <div className='w-full h-16 flex justify-between items-center'>
           <div className='h-16 w-16 flex justify-center items-center'>
           <img src={Arrow} alt="" className='h-[18px] w-[15px] dark:invert'/>
           </div>
-        <div className='w-70 h-16 text-xl font-poppins font-bold flex justify-center items-center mb-3 dark:text-white'>
+        <div className='w-64 h-16 text-xl font-poppins font-bold flex justify-center items-center mb-3 dark:text-white'>
          JEE Mains
         </div>
+          <div className='w-16 h-16'>
+
+          </div>
         </div>
         <div className='w-full h-20 flex justify-between items-center '>
           <button className='h-20 w-full  flex justify-center items-center cursor-pointer' onClick={()=>{setactivesection('Physics');
