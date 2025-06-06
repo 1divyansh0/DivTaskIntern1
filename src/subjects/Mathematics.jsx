@@ -104,7 +104,7 @@ setsclass(e.target.value);}} >
     <option value="All" className='font-poppins dark:text-black'>All</option>
   </select>
 </div>
-                   <div className={!notstarted?` cursor-pointer min-w-[30%] md:min-w-[20%] h-10  border-2 rounded-2xl border-gray-200 flex justify-center items-center font-poppins dark:text-white`:` cursor-pointer min-w-[30%] md:min-w-[20%] h-10  border-2 rounded-2xl border-gray-200 flex justify-center items-center font-poppins bg-clicked text-white` } onClick={()=>setnotstarted(prev=>!prev)}>Notstarted</div>
+                   <div className={!notstarted?` cursor-pointer min-w-[30%] md:min-w-[20%] h-10  border-2 rounded-2xl border-gray-200 flex justify-center items-center font-poppins dark:text-white`:` cursor-pointer min-w-[30%] md:min-w-[20%] h-10  border-2 rounded-2xl border-gray-200 flex justify-center items-center font-poppins bg-clicked text-white` } onClick={()=>setnotstarted(prev=>!prev)}>Not Started</div>
                    <div className= {!showweakchap?` cursor-pointer min-w-[50%] md:min-w-[20%] h-10  border-2 rounded-2xl border-gray-200 flex justify-center items-center font-poppins dark:text-white`:` cursor-pointer min-w-[50%] md:min-w-[20%] h-10  border-2 rounded-2xl border-gray-200 flex justify-center items-center font-poppins bg-clicked text-white `} onClick={()=>{
                     weakhandler();
 
