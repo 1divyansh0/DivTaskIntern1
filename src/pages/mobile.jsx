@@ -19,7 +19,7 @@ const mobile = ({setactivesection}) => {
         </div>
         <div className='w-full h-16 flex'>
           <div className='h-16 w-16 flex justify-center items-center'>
-          <img src={Arrow} alt="" className='h-[18px] w-[15px]'/>
+          <img src={Arrow} alt="" className='h-[18px] w-[15px] dark:invert'/>
           </div>
         <div className='w-70 h-16 text-xl font-poppins font-bold flex justify-center items-center mb-3 dark:text-white'>
          JEE Mains
